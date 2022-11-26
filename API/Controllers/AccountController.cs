@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Cryptography;
 using System.Text;
 using API.DTOs;
 using Microsoft.EntityFrameworkCore;
 using API.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 namespace API.Controllers
 {
