@@ -1,14 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 namespace API.DTOs
-{    
+{
     public class RegisterDto
     {
         [Required]
+        [StringLength(26, MinimumLength = 1)]
         public string UserName {get; set;}
 
         [Required]
